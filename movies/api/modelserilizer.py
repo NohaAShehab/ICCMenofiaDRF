@@ -9,6 +9,9 @@ class MovieSerilizer(serializers.ModelSerializer):
         # exclude = ("watchlist", )
 
 
+
+
+
 class WatchlistSerlizer(serializers.ModelSerializer):
     class Meta:
         model = WatchList
